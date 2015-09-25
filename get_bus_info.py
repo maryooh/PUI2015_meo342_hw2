@@ -36,7 +36,4 @@ if __name__=='__main__':
 						busStop = "N/A"
 						stopStatus = "N/A"
 					row = [busLat, busLon, busStop, stopStatus]
-					writer.writerow(row)busStop = b['MonitoredVehicleJourney']['OnwardCalls']
-					['OnwardCall'][0]['StopPointName']
-					stopstatus= b['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall']
-					[0]['Extensions']['Distances']['PresentableDistance']
+					writer.writerow(row)
