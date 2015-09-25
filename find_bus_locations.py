@@ -12,7 +12,7 @@ if __name__=='__main__':
 	API_KEY = '9c0690a6-de1f-48a4-ab8c-8db536692b7d'
 	BUS_LINE = 'B52'
 		
-	def findbusloc256 west 10th :
+	def findbusloc(API_KEY, BUS_LINE):
 		url = 'http://api.prod.obanyc.com/api/siri/vehicle-monitoring.json?key=%s&VehicleMonitoringDetailLevel=calls&LineRef=%s' % (API_KEY, BUS_LINE)
 		#jsonFile = open(url, 'r')
 		data = json.load(open(url,'r'))
